@@ -1,0 +1,21 @@
+
+package javaapplication1;
+public class JavaApplication1 
+{
+    public static void main(String[] args)
+    {
+        int age=22;
+        double price=150.25;
+        char grade='A';
+        boolean isStudent=true;
+        String name="Walid Hasan";
+     
+        System.out.println("Your age is:"+ age);
+        System.out.println("Price is:"+ price);
+        System.out.println("Grade is: "+ grade);
+        System.out.println("Is he student or not?? "+ isStudent);
+        System.out.println("My name is: "+ name);
+        
+    }
+    
+}
