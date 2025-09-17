@@ -1,0 +1,28 @@
+package walid;
+import java.util.Scanner;
+public class Walid
+{
+ 
+    public static void main(String[] args)
+    {
+      Scanner scanner=new Scanner(System.in);
+      System.out.print("Enter an integer: ");
+      int x=scanner.nextInt();
+      if( x == 10.0 )
+      {
+         System.out.println("Value of X is 10.0");
+      }
+      else if( x == 20.0 )
+      {
+         System.out.println("Value of X is 20.0");
+      }
+      else if( x == 30.0 )
+      {
+         System.out.println("Value of X is 30.0");
+      }
+      else 
+      {
+         System.out.println("This is else statement");
+      }  
+    } 
+}
